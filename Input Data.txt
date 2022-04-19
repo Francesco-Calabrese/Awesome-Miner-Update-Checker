@@ -1,0 +1,4 @@
+12345678900 (receiving number)
+00987654321 (sending number from Twilio)
+this1$mySIDvaluehere
+this1$myAuthenticationT0ken
