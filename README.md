@@ -20,7 +20,7 @@ Once registered, obtain the Account SID, Authentication Token, and Twilio Phone 
 
 Input Data.txt
 ----
-This text file should be placed in the same location as the main.exe file and should contain 4 lines as follows:
+This text file should be placed in the same location as the Awesome_Miner_Update_Checker.exe file and should contain 4 lines as follows:
 
 The first line is the phone number that will receive the SMS message. It should be in the form 1aaabbbcccc (1 representing the US country code). Do not place any spaces or other characters between the numbers. Example: 19598381122.
 
