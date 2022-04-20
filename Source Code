@@ -66,8 +66,8 @@ def get_current_version():
 print("Starting Awesome Miner Update Checker.")
 
 #gets the current version of Awesome Miner
-print("Getting current version of Awesome Miner.")
 get_current_version()
+print("Getting current version of Awesome Miner: {}.".format(currentVersion))
 
 # opens the Input Data text document and saves the variables
 f = open("Input Data.txt")
@@ -118,10 +118,6 @@ else:  # database does not exist, so it creates a database and creates the INFO 
     ]
     c.executemany(sql, data)
     con.commit()  # commits the changes
-
-c.execute("UPDATE INFO SET version = ? WHERE userPhone = ?",  # sets the new version in the database
-                  ("not current version", userPhone))
-con.commit()
 
 con.close()
 
