@@ -13,7 +13,7 @@ Twilio
 ------
 You must register with Twilio to use the SMS feature (https://www.twilio.com/). This program will send SMS messages to your authenticated phone number from a Twilio phone number that is included in the free version. You must have a US phone number for this program to work.
 
-Once registered, obtain the Account SID, Authentication Token, and Twilio Phone number. See the image below.
+Once registered, obtain the Account SID, Authentication Token, and Twilio Phone number for use in the Input Data Text file. See the image below.
 
 ![image](https://user-images.githubusercontent.com/96243400/164089349-7495f9d2-5d3d-4599-8429-243c5020e628.png)
 
