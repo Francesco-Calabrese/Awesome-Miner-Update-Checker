@@ -3,7 +3,7 @@ Checks for updates on the Awesome Miner Program and sends a SMS alert when updat
 
 Operation
 ----
-This program was created for a Windows 10 environment. First obtain a Twilio account (free) - see below. Next create the Input Data text file. Using the command prompt (start -> cmd), navigate to the main.exe and launch. Exit the program by using Ctrl-X.
+This program was created for a Windows 10 environment. First obtain a Twilio account (free) - see below. Next create the Input Data text file. Using the command prompt (start -> cmd), navigate to the Awesome_Miner_Update_Checker.exe and launch. Exit the program by using Ctrl-X.
 
 Once launched, the program will create a database (SQLite) named INFO and get the current version of Awesome Miner. Every day at 0700, it will check online (https://www.awesomeminer.com/download/setup/releaseinfo.txt) for the current version of Awesome Miner. If a new version is found, it will send a SMS message to the provided phone number. Once the SMS message is sent, the program will exit. You should update Awesome Miner and then rerun this program. 
 
